@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(Images/header-image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 90vh;
+  position: relative;
+  top: 0;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.73;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 62px;
+  max-width: 70vw;
+}
+.logo {
+  width: 180px;
+  position: relative;
+  z-index: 10;
+  margin-right: 50px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.btn {
+  cursor: pointer;
+}
+.English {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 8px 26px;
+  font-weight: 600;
+  border: 1px solid white;
+  margin-top: 40px;
+}
+.Sign {
+  background-color: red;
+  border-color: none;
+  color: white;
+  font-size: medium;
+  border-radius: 7px;
+  font-weight: 600;
+  padding: 8px 16px;
+  margin-left: 15px;
+}
+nav .btn {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.hero :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.hero :nth-child(2) {
+  font-size: 23px;
+  margin: 10px 8px;
+  font-weight: 200;
+  text-align: center;
+}
+.hero :nth-child(3) {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 200;
+  text-align: center;
+}
+.Get {
+  margin-top: 10px;
+}
+.Get :first-child {
+  background-color: rgba(23, 23, 23, 0.7);
+  padding: 14px 101px 14px 14px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  margin-top: 10px;
+  color: white;
+  z-index: 10;
+}
+.Get .btn {
+  color: white;
+  background-color: red;
+  padding: 6px 50px 5px 20px;
+  border-radius: 7px;
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.second {
+  height: 81%;
+  border-top: 8px solid rgb(74, 74, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.secing {
+  position: relative;
+}
+.secing img {
+  width: 447px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+.secing video {
+  position: absolute;
+  top: 98px;
+  right: 87px;
+  width: 447px;
+}
+section.second > div {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.second > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.second > div :nth-child(2) {
+  font-size: 24px;
+}
+.Third {
+  height: 81%;
+  border-top: 8px solid rgb(74, 74, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.secing img {
+  width: 40vw;
+}
+section.Third > div {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.Third > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.Third > div :nth-child(2) {
+  font-size: 24px;
+}
+.fourth {
+  height: 81%;
+  border-top: 8px solid rgb(74, 74, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 40vw;
+  position: relative;
+  z-index: 10;
+}
+.secimg video {
+  position: absolute;
+  top: 56px;
+  right: 119px;
+  width: 384px;
+}
+section.fourth > div {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.fourth > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.fourth > div :nth-child(2) {
+  font-size: 24px;
+}
+.fifth {
+  height: 81%;
+  border-top: 8px solid rgb(74, 74, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.secing img {
+  width: 40vw;
+}
+section.fifth > div {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.fifth > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.fifth > div :nth-child(2) {
+  font-size: 24px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.faq {
+  border-top: 8px solid rgb(74, 74, 74);
+  background-color: black;
+  color: white;
+  padding: 34px;
+  text-align: center;
+}
+.faqbox svg {
+  filter: invert(1);
+}
+.faqbox:hover {
+  background-color: rgb(144, 1, 1);
+}
+.faqbox {
+  transition: all 20ms ease-in;
+  display: flex;
+  background-color: rgb(45, 45, 45);
+  padding: 24px;
+  justify-content: space-between;
+  margin: 12px auto;
+  cursor: pointer;
+  max-width: 60vw;
+  font-size: 28px;
+}
+.mar {
+  margin-top: 60px;
+  font-size: 16px;
+}
+.Get .btn2 {
+  color: white;
+  background-color: red;
+  padding: 6px 60px 6px 10px;
+  margin-bottom: 60px;
+  border-radius: 7px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+}
+footer {
+  height: 50vh;
+  color: gray;
+  font-size: 20px;
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px 0;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 0;
+}
+@media screen and (max-width: 1300px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+    gap: 25px;
+  }
+  .hero :first-child {
+    font-size: 32px;
+  }
+  .hero :nth-child(2) {
+    font-size: 18px;
+  }
+  .hero :nth-child(3) {
+    font-size: 18px;
+  }
+  .get{
+    display: flex;
+    flex-direction: column;
+  }
+  .get input{
+    font-size: 14px;
+  }
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.footer a {
+  color: gray;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.separation {
+  border-top: 8px solid rgb(74, 74, 74);
+}
+footer .last {
+  font-size: 14px;
+  margin-top: 20px;
+}
